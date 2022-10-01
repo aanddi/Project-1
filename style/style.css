@@ -299,7 +299,7 @@ span {
 /*____________ FORMS _______________*/
 
 .forms {
-    min-height: 176px;
+    min-height: 22vh;
     background-color: #E6E3DE;
     font-family: 'Montserrat', sans-serif;
     
@@ -672,7 +672,7 @@ input{
     }
 
     .btn {
-        margin-top: 120px;
+        margin-top: 100px;
     }
 
 /*____________ ABOUT _______________*/
@@ -728,6 +728,7 @@ input{
         align-items: center;
         flex-direction: column;
         padding-top: 20px;
+        font-size: 17px;
     }
 
     .header__body {
@@ -760,12 +761,17 @@ input{
 /*____________ FOOTER _______________*/
     .footer__info {
         flex-direction: column;
+        
     }
 
     .nav__footer {
         margin-top: 20px;
         margin-bottom: 20px;
-        text-align: center;
+        
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 0px;
+        font-size: 13px;
     }
 
     .footer {
