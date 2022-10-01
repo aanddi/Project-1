@@ -224,7 +224,7 @@ span {
 /*____________ CONTACT _______________*/
 
 .contact {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fff;
     padding-top: 60px;
 }
@@ -728,11 +728,22 @@ input{
         align-items: center;
         flex-direction: column;
         padding-top: 20px;
-        font-size: 17px;
     }
 
     .header__body {
         margin-top: 85px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .time {
+        font-size: 28px;
+    }
+
+    .btn {
+        margin-top: 70px;
     }
 
 /*____________ ABOUT _______________*/
