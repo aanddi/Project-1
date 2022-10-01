@@ -725,7 +725,7 @@ input{
 /*____________ HEADER _______________*/
 
     .header {
-        min-height: 110vh;
+        min-height: 120vh;
     }
     .nav a {
         display: flex;
