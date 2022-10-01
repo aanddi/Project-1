@@ -723,6 +723,10 @@ input{
 @media screen and (max-width: 530px){
     
 /*____________ HEADER _______________*/
+
+    .header {
+        min-height: 110vh;
+    }
     .nav a {
         display: flex;
         align-items: center;
@@ -773,6 +777,10 @@ input{
         padding-bottom: 60px;
         min-height: 130vh;
 
+    }
+
+    .sirvise__icon__text {
+        font-size: 17px;
     }
     
 /*____________ FOOTER _______________*/
