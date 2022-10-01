@@ -731,7 +731,7 @@ input{
     }
 
     .header__body {
-        margin-top: 85px;
+        margin-top: 80px;
     }
 
     .slogan {
@@ -743,7 +743,8 @@ input{
     }
 
     .btn {
-        margin-top: 70px;
+        margin-top: 65px;
+        font-size: 17px;
     }
 
 /*____________ ABOUT _______________*/
