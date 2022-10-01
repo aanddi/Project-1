@@ -744,6 +744,10 @@ input{
 
     .btn {
         margin-top: 65px;
+        
+    }
+
+    .btn a {
         font-size: 17px;
     }
 
