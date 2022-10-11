@@ -335,7 +335,7 @@
 @media screen and (max-width: 600px) {
 
         .header__body {
-            margin-top: 150px;
+            margin-top: 80px;
             font-size: 25px;
             line-height: 45px;
         }
