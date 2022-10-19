@@ -72,16 +72,31 @@
     border-radius: 13px;
 }
 
+/*____________ MEDIA _______________*/
 
+@media screen and (max-width: 1200px){
+    
+    .contact__info a{
+        font-size: 30px;
+    }
+    
+    .address p {
+        font-size: 23px;
+    }
+    
+    .social p{
+        font-size: 15px;
+
+    }
+}
 
 @media screen and (max-width: 1066px){
     
-        .contact__info {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            padding-top: 20px;
-            text-align: center;
-        }
-
+    .contact__info {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
     }
+}
