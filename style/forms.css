@@ -90,8 +90,6 @@ input{
     }
 }   
 
-
-
 @media screen and (max-width: 1066px){
     
     .info h1 {
@@ -110,4 +108,29 @@ input{
         font-size: 16px;
         padding: 13px 15px; 
     }
+}
+
+@media screen and (max-width: 780px) {
+
+        /*____________ FORMS _______________*/
+    
+    .forms {
+        height: 200px;
+    }
+    
+        .info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 10px;  
+        }
+    
+        input {
+            margin-top: 12px;
+        }
+    
+        .btn__forms {
+        margin-top: 31px;
+    
+        }
 }

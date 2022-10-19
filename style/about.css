@@ -1,17 +1,17 @@
 /*____________ ABOUT _______________*/
 
 .about {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),
-     url(../img/about.jpg) ;
-    min-height: 100vh; 
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/about.jpg);
+    min-height: 100vh;
     background-color: #F9F8F8;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+
 }
 
-.about__text p{
+.about__text p {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 30px;
@@ -39,10 +39,10 @@
     padding: 17px;
     border: 2px solid #F6A73E;
     border-radius: 50%;
-    
+
 }
 
-.sirvise__icon p{
+.sirvise__icon p {
     margin-top: 30px;
     color: #fff;
     font-family: "Open Sans";
@@ -51,6 +51,13 @@
 
 /*_______________________ MEDIA  ____________________________*/
 
+@media screen and (max-width: 780px) {
+
+    .sirvise__icon img {
+        min-width: 55px;
+        height: 55px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .servise {
@@ -60,4 +67,33 @@
     }
 }
 
+@media screen and (max-width: 530px) {
 
+    .about {
+        padding-bottom: 50px;
+        min-height: 130vh;
+    }
+
+    .servise {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .sirvise__icon img {
+        min-width: 20px;
+        height: 50px;
+        padding: 13px;
+
+    }
+
+    .sirvise__icon__text {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        font-size: 20px;
+
+    }
+}

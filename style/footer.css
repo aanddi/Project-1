@@ -24,11 +24,11 @@
     text-transform: uppercase;
     margin-right: 30px;
     font-family: "Macherie";
-    
+
     transition: all 0.4s ease-out;
 }
 
-.nav__footer a:hover{
+.nav__footer a:hover {
     color: #F7A92C;
 }
 
@@ -56,5 +56,31 @@
     background-color: #F7A92C;
     border-radius: 100%;
     border: 1px solid #F7A92C;
-   
-} 
+
+}
+
+/*____________ MEDIA _______________*/
+
+@media screen and (max-width: 530px) {
+    
+    .footer__info {
+        flex-direction: column;
+
+    }
+
+    .nav__footer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        margin-right: 0px;
+        font-size: 13px;
+    }
+
+    .nav__footer a {
+        margin-right: 16px;
+    }
+
+    .footer {
+        padding-top: 45px;
+    }
+}
